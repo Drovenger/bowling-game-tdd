@@ -1,7 +1,6 @@
-class BowlingGame {
-    BowlingGame game = new BowlingGame();
+public class BowlingGame {
+    public void roll(int pins) {
 
-    void roll(int pins) {
     }
 
     int score() {
@@ -10,7 +9,5 @@ class BowlingGame {
 
     void repeat() {
         int pins = 0;
-        game.roll(pins);
     }
-    int score = game.score();
 }
